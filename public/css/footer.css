@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@700&display=swap');
+#footer{
+    background-color: rgb(53, 49, 49);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-top{
+    border-bottom: 1px solid rgb(95, 83, 83);
+}
+.footer-address{
+    margin: 70px 0;
+}
+.address{
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.email{
+    margin-bottom: 20px;
+}
+.information{
+    margin: 70px 0;
+}
+.information h4{
+    letter-spacing: 0.5px;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.info{
+    margin-top: 20px;
+
+}
+.info p{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 30px auto 0 auto ;
+    text-align: center;
+    align-items: center;
+}
+.icon ul li{
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(147, 240, 240);
+}
+.icon ul li:hover{
+    color: rgb(243, 168, 180);
+}

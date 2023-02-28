@@ -1,0 +1,277 @@
+
+.product{
+  margin: 0 80px;
+}
+.image{
+    width: 60px;
+    height: 75px;
+    border: 1px solid rgb(199, 180, 180);
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 2px 5px;
+}
+.banner-details img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.text-details{
+    display: flex;
+}
+.text-details i{
+ font-size: 30px;
+}
+.text-details img{
+    width: 30px;
+    height: 30px;
+}
+.text-details p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.buy-addCart{
+    margin: 20px 0;
+}
+.name-product-details{
+    margin-bottom: 20px;
+}
+.name-product-details h2{
+    text-transform: uppercase;
+    font-size: 33px;
+}
+.name-product-details div{
+    border: 1px solid red;
+    width: 100px;
+    border-radius: 5px;
+    color: red;
+    padding-left: 4px;
+}
+.price-product-details{
+    display: flex;
+    justify-content: space-between;
+}
+.installment-price{
+    text-align: right;
+}
+.real-price span{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px 3px;
+    margin-right: 6px;
+}
+.real-price h3{
+    color: red;
+}
+.real-price del{
+    color:  grey;
+}
+.installment-price{
+    font-size: 18px;
+}
+.installment-price div{
+    color: rgb(80, 74, 74);
+    font-weight: 500;
+}
+.option-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.option-price button{
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: rgb(44, 39, 39);
+    font-size: 16px;
+    font-weight: 500;
+}
+.option-price button:hover{
+    background: red;
+    color:  white;
+}
+.sales-policy{
+    box-shadow: 0 0 8px rgb(0 0 0 / 5%), 0 4px 6px rgb(0 0 0 / 7%);
+    border-radius: 6px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.sales-title{
+    padding:10px 20px;
+    color:rgb(224, 80, 18) ;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(244 54 54 / 10%);
+    text-transform: uppercase;
+}
+.sales-main{
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    color: #41424A;
+}
+.sales-main span{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    background: rgb(222, 40, 40);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 10px;
+}
+.sales-main-2{
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    color: #41424A;
+}
+.sales-title-2{
+    padding:10px 20px;
+    color:rgb(224, 80, 18) ;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(50 154 251 / 10%);
+    text-transform: uppercase;
+}
+.sales-main-2 span{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    background:#329AFB ;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 10px;
+}
+.details-promotion{
+    box-shadow: 0 0 8px rgb(0 0 0 / 5%), 0 4px 6px rgb(0 0 0 / 7%);
+    border-radius: 6px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.promotion-title{
+    padding:10px 20px;
+    color:rgb(224, 80, 18) ;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(244 54 54 / 10%);
+    text-transform: uppercase;
+}
+.promotion-item{
+    margin: 10px 0 5px 10px;
+    font-weight: 500;
+}
+.promotion-item span{
+    width: 20px;
+    height: 20px;
+    color:  white;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center; 
+    margin-right: 20px;
+}
+.buy-now button{
+    width: 100%;
+    border-radius: 5px;
+    background: white;
+    color: green;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 30px 0;
+    transition: 1s ease;
+}
+.buy-now button:hover{
+    color:  white;
+    background: blue;
+    border: none;
+}
+.add-to-card button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.comment{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main-comment{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 4px;
+}
+.main-comment h3{
+    margin: 10px 5px;
+}
+.info-user input{
+    width: 100%;
+    outline: none;
+}
+.info-user textarea{
+    width: 100%;
+    height: 160px;
+}
+.info-user button{
+    color:  white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.comment-list{
+    border-top: 1px solid rgb(180, 173, 173);
+}
+.comment-item{
+    margin-top: 20px;
+}
+.comment-item ul{
+    list-style: none;
+    border: 1px solid rgb(227, 227, 227) ;
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+.item{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.item button{
+    border: none;
+    background: transparent;
+    color: rgb(220, 130, 28);
+    font-size: 18px;
+    margin-top: -10px;
+}
+tr{
+    width: 100%;
+}
+th{
+    padding:10px 20px 10px 0;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 39, 39);
+}
+td{
+    padding: 10px 20px;
+}
